@@ -12,4 +12,4 @@ st.audio(audio_file)
 
 #新增一个按钮测试直接播放语音文件
 if st.button("翻译文本转语音"):
-    st.audio(/audiofiles/xxxzyj.mp3)
+    st.audio(./audiofiles/xxxzyj.mp3)
