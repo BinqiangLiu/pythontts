@@ -2,7 +2,8 @@
 
 import streamlit as st
 
-mp3_file_path = "./PythonTTS.mp3"
+#mp3_file_path = "./PythonTTS.mp3"
+mp3_file_path = "PythonTTS.mp3"
 
 with open(mp3_file_path, "rb") as file:
     audio_file = file.read()
