@@ -11,5 +11,5 @@ with open(mp3_file_path, "rb") as file:
 st.audio(audio_file)
 
 #新增一个按钮测试直接播放语音文件
-if st.button("翻译文本转语音"):
+if st.button("直接播放上传语音文件"):
     st.audio("./audiofiles/xxxzyj.mp3")
