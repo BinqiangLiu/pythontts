@@ -5,7 +5,7 @@ from gtts import gTTS
 from io import BytesIO
 
 sound_file = BytesIO()
-tts = gTTS('Add text-to-speech to your app', lang='en')
+tts = gTTS('AStreamlit is a free and open-source framework to rapidly build and share beautiful machine learning and data science web apps.', lang='en')
 tts.write_to_fp(sound_file)
 
 st.audio(sound_file)
