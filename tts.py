@@ -9,3 +9,7 @@ with open(mp3_file_path, "rb") as file:
     audio_file = file.read()
 
 st.audio(audio_file)
+
+#新增一个按钮测试直接播放语音文件
+if st.button("翻译文本转语音"):
+    st.audio(/audiofiles/xxxzyj.mp3)
